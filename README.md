@@ -13,7 +13,7 @@ folder Contains Dashboard example with some screenshoots.
 folder Contains Landing Page example with some screenshoots.
 
 ### Prerequisites
-* Know about the ```HTML```, ```CSS```,```Bootstrap``````JavaScript```.
+* Know about the ```HTML```, ```CSS```,```Bootstrap``` and ```JavaScript```.
 
 ### Steps to try:
 
