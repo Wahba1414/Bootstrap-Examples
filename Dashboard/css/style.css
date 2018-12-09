@@ -1,0 +1,385 @@
+/*Side bar*/
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  padding-left: 15px;
+  padding-right: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+  background: #7376df;
+}
+
+.sidebar .site-title {
+    margin-top: .5rem;
+    margin-bottom: 2rem; 
+}
+
+.site-title a {
+  font-size: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.sidebar .site-title button {
+  color:#fff;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+
+.sidebar .site-title a:hover {
+  background: none !important; }
+
+
+.navbar-toggler{
+    border-radius: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #6365d2;
+    visibility: hidden;
+}
+
+.site-title-em {
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+
+.navbar-toggler em {
+    font-size: 1rem;
+}
+
+
+#navbarTogglerDemo01 {
+    display: visible;
+}
+
+.nav-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: .2rem;
+    padding: .75rem 1rem; 
+}
+
+.nav-link em{
+    font-size: 1rem;
+    margin-right: .5rem;
+}
+  
+.nav-item {
+    width: 100%; 
+}
+
+
+.sidebar a:focus, .sidebar a:visited, .sidebar a:hover, .sidebar a.active {
+    background-color: #6365d2 !important; 
+}
+
+.logout-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 85%;
+    text-align: center;
+    border-radius: .3rem;
+    color: aliceblue;
+    padding: .75rem 1rem;    
+}
+
+
+/*main*/
+
+.main{
+    
+}
+
+.username h4 , .username h6 {
+    margin: 0;
+}
+
+.user-dropdown button{
+    border: none;
+    background: none;
+    padding: 0 20px 0 0;
+    
+}
+
+.user-dropdown button::after{
+    float: left;
+    position: relative;
+    top:10px;
+    left: 10px;
+    font-size: 25;
+}
+
+.user-dropdown button:hover ,.user-dropdown button:focus ,.user-dropdown button:visited ,.user-dropdown button:active {
+  background: none !important; 
+  border: none;
+}
+
+
+.page-header{
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.page-header-title{
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+
+.user-info{
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.profile-photo{
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.user-name{
+    font-weight: bold;
+}
+
+.user-role{
+/*    text-transform: uppercase;*/
+    
+}
+
+.divider{
+    border-bottom: 1px solid #eee;
+    margin: 40px 0;
+    
+}
+
+.divider-article{
+    border-bottom: 1px solid #eee;
+    margin: 20px 0;
+    
+}
+
+.custom-jumbotron{
+    background-color: #f7f7f7;
+    padding: 30px 30px;
+    margin-top: 40;
+}
+
+.jumbotron-button{
+    background-color: #7376df;
+    border-radius: 9rem;
+}
+
+.jumbotron a:focus, .jumbotron a:visited, .jumbotron a:hover, .jumbotron a:active {
+    background-color: #6365d2; 
+}
+
+.jumbotron-header{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+
+/*chart*/
+.chart-dropdown{
+    position: absolute;
+    top:12px;
+    right:25px;
+}
+
+.custom-card{
+    position: relative;
+    border: 1px solid #eee;
+    margin-top: 40px;
+}
+
+.todo-dropdown button {
+    color: #6365d2;
+    background-color: #f7f7f7;
+    height: 30;
+    border-radius: 9rem;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.todo-list h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.todo-list p{
+    font-size: 15px;
+}
+
+.todo-dropdown button:focus, .todo-dropdown button:visited, .todo-dropdown button:hover, .todo-dropdown button:active {
+    color: #fff;
+    background-color: #6365d2; 
+}
+
+.chart-dropdown button {
+    color: #6365d2;
+    background-color: #f7f7f7;
+    height: 35;
+    border-radius: 9rem;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.chart-dropdown button:focus, .chart-dropdown button:visited, .chart-dropdown button:hover, .chart-dropdown button:active {
+    color: #fff;
+    background-color: #6365d2; 
+}
+
+
+/*Articles*/
+.articles{
+    text-align: center;
+    line-height: 15px;
+    padding-top: 20px;
+}
+
+
+.articles h4{
+    font-weight: bold;
+}
+
+.article-conetent-header{
+    font-weight: bold;
+    color: #6365d2;
+    font-size: 20;
+}
+
+/*top users*/
+.top-user{
+    border: 1px solid #eee; 
+    margin-top: 40;
+    padding-top: 20px;
+}
+
+.top-user-photo{
+    width: 70px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.top-user-progress{
+    width: 65%;
+    margin-top: 25px;
+}
+
+.progress-bar-custom{
+    width: 50%; 
+    height:5px;
+    background-color: #6365d2;
+}
+
+.progress-percentage{
+    margin-top: 25px;
+    color: #6365d2;
+/*    font-weight: bold;*/
+    text-align: center;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.top-user-record{
+    margin: 20px 0;
+}
+
+
+.top-user h4{
+    font-weight: bold;
+}
+
+.top-user p{
+    font-size: 15px;
+}
+
+.todo-list {
+    margin-top: 40px;
+    border: 2px solid #eee;
+    padding: 15px;
+}
+
+.todo-list-body{
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list-body li{
+    margin-bottom: 0px;
+    display: block;
+    padding: 10px;
+}
+
+.todo-list-body input{
+    margin-right: 10px;
+}
+
+.todo-list-body li:hover{
+    background-color: #eee;
+}
+
+.input-group-custom {
+    padding: 10px 20px;
+    background-color: #eee;
+}
+
+.input-group-custom button {
+    background-color: #6365d2;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    color: white;
+}
+
+@media (max-width: 575px) {
+    #sideNavbar {
+        display: none; 
+    }
+    
+    #sideNavbar.navbarDisplay  {
+    }
+    
+    .navbar-toggler{
+        visibility: visible;
+    }
+    .logout-button {
+        visibility: hidden;
+    }
+    .sidebar{
+        position: relative;
+        height: auto;
+        padding: 20px 0px 0px 20px;
+    }
+    
+    #wrapper.toggled .sidebar-nav {
+        display: block;
+    }
+    
+    #wrapper .sidebar-nav {
+        display: none;
+    }
+}
+
+@media (min-width: 575px) {
+    
+}
